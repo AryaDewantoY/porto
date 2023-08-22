@@ -15,7 +15,8 @@ import e from "../public/e.png";
 import f from "../public/f.png";
 import h from "../public/h.png";
 import i from "../public/i.png";
-import rqw from "../public/rqw.png";
+import l from "../public/l.png";
+import zz from "../public/zz.png";
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
 
@@ -260,12 +261,28 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={rqw}
+                src={l}
                 alt="gambar"
               />
               </div>
               </Link>
               <br />      
+
+                </div>
+            <div className="basis-1/3 flex-1">
+            <Link href={"https://whatsbotmev.vercel.app/"}> 
+              <div className="hover:cursor-pointer flex justify-center items-center">
+              <Image
+                className="rounded-lg object-cover justify-content: auto;"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={zz}
+                alt="gambar"
+              />
+              </div>
+              </Link>
+              <br />         
               
             </div>
             <div className="basis-1/3 flex-1">
