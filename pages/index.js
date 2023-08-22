@@ -15,6 +15,7 @@ import e from "../public/e.png";
 import f from "../public/f.png";
 import h from "../public/h.png";
 import i from "../public/i.png";
+import rqw from "../public/rqw.png";
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
 
@@ -88,7 +89,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Servis Skill</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Ulasan</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               saya memiliki skill menengah atau intermediate, serta pengalaman di bidang ini khususnya pada freelance web developer selama 1 Tahun Lebih.
               <span className="text-teal-500"> Solo Project  </span>
@@ -249,6 +250,22 @@ export default function Home() {
               </div>
               </Link>
               <br />
+
+             </div>
+            <div className="basis-1/3 flex-1">
+            <Link href={"https://aryaaaydproject.vercel.app/"}> 
+              <div className="hover:cursor-pointer flex justify-center items-center">
+              <Image
+                className="rounded-lg object-cover justify-content: auto;"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={rqw}
+                alt="gambar"
+              />
+              </div>
+              </Link>
+              <br />      
               
             </div>
             <div className="basis-1/3 flex-1">
